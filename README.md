@@ -7,19 +7,20 @@ LAB 20
   1. Buat username dan password sesuai perintah di Topologi.  
      USN : ahnaf  
      PASS: Jaringan  
-![a]()  
+![a](usradd.PNG)  
   2. Login mengunakan user yang telah dibuat.  
-![b]()  
+![b](logon.PNG)  
   3. Ganti Identitas RB menjadi **R3**.  
-![c]()  
+![c](id.PNG)  
   4. Tambahkan IP Address untuk ether1 dan ether2.  
      ether1 = 12.12.12.6/30 (untuk koneksi R3 ke R2)  
      ether2 = 12.12.12.9/30 (untuk koneksi R3 ke R4)  
-![d]()
+![d](r3.PNG)
   6. Sekarang konfigurasi static routing  
      dst addrs=11.11.11.0/27 gateway=12.12.12.5 (Ke Laptop A lewat R2)  
      dst addrs=22.22.22.0/29 gateway=12.12.12.10 (Ke Laptop B lewat R4)  
-![e]()
+![e](rotest.PNG)
+![m](rotes.PNG)
        
 # Router 4
   Dirouter 4, kita akan coba konfigurasi mengunakan mode CLI.  
@@ -27,7 +28,7 @@ LAB 20
 
          user add name=ahnaf password=jaringan group=full  
   2. Login mengunakan user yang telah dibuat.  
-![g]()  
+![g](logon.PNG)  
   3. Ganti Identitas RB menjadi **R4**.  
 
           system identity set name=R4  
@@ -47,12 +48,12 @@ LAB 20
   Laptop A = 11.11.11.2  
   ![h]()  
   Laptop B = 22.22.22.2  
-  ![i]()  
+  ![i](win.PNG)  
   Jika sudah coba ping dari Laptop A ke B dan sebaliknya, apakah sudah terkoneksi.  
   Laptop A:  
   ![j]()  
   Laptop B:  
-  ![k]()  
+  ![k](cmds.PNG)  
 
 # Kesimpulan
   Jadi,
