@@ -1,7 +1,9 @@
 # LAB-20-Static-Routing
 LAB 20
 
-# Static Routing
+# Static Routing  
+![griz](grizly.png)  
+  
   Jelaskan langkah konfigurasi static routing dan basic konfigurasi  pada  mikrotik :  
 # Router 3
   1. Buat username dan password sesuai perintah di Topologi.  
@@ -46,7 +48,7 @@ LAB 20
 # Laptop  
   Jika semua router sudah di konfigurasi, selanjutnya kita setting IP untuk setiap laptop.  
   Laptop A = 11.11.11.2  
-  ![h]()  
+  ![h](pc2.PNG)  
   Laptop B = 22.22.22.2  
   ![i](win.PNG)  
   Jika sudah coba ping dari Laptop A ke B dan sebaliknya, apakah sudah terkoneksi.  
