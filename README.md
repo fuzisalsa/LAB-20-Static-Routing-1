@@ -58,4 +58,4 @@ LAB 20
   ![k](cmds.PNG)  
 
 # Kesimpulan
-  Jadi,
+  Jadi, Static routing adalah konfigurasi jaringan di mana jalur data antar perangkat jaringan ditentukan secara manual. Static routing tidak akan berubah kecuali diubah.
