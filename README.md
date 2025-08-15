@@ -50,9 +50,9 @@ LAB 20
   ![i]()  
   Jika sudah coba ping dari Laptop A ke B dan sebaliknya, apakah sudah terkoneksi.  
   Laptop A:  
-  ![j]()
+  ![j]()  
   Laptop B:  
-  ![k]()
+  ![k]()  
 
 # Kesimpulan
   Jadi,
